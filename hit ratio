@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+float a,b,c,i;
+ printf("enter the hit values");
+ scanf("%d",&a);
+ printf("enter the miss value");
+ scanf("%d",&b);
+ printf("total number of page frames");
+ scanf("%d",&c);
+ (i=a/c);
+ printf("the hit ratio for given  hit value is: %f", i);
+}
